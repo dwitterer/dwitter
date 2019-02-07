@@ -455,13 +455,6 @@ iframe {
   }
 }
 
-@media (max-width: 350px) {
-  .dweet-create-form-title-label span {
-    display: none;
-  }
-}
-
-
 .top-sort-list li .collapsible li {
   display: block;
   background: white;
