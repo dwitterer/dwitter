@@ -88,16 +88,4 @@ $(document).ready(function() {
     var postedDate = moment.utc($(element).find('time').attr('datetime'));
     $(element).text(postedDate.local().format('lll'));
   });
-
-  $('.dweet-create-form-title').click(function() {
-    var dweet = $('.submit-box').slideDown(Waypoint.refreshAll);
-    var iframe = $(dweet).find('.dweetiframe')[0];
-
-    /* eslint-disable no-undef */
-    registerOnKeyListener(dweet);
-    registerWaypoint(iframe);
-    /* eslint-enable no-undef */
-
-    $(dweet).find('textarea').focus();
-  });
 });
