@@ -92,7 +92,7 @@ input[type=submit].delete-button:hover {
   font-family: 'Roboto', sans-serif;
 }
 
-a {
+a:not(.dweet-create-form-title-label) {
   color: #666;
   text-decoration: none;
 }
